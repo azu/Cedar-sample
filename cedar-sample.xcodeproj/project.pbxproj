@@ -18,7 +18,6 @@
 		732D013014C7CAED005FFF89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732D011514C7CA9B005FFF89 /* CoreGraphics.framework */; };
 		732D013614C7CAED005FFF89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 732D013414C7CAED005FFF89 /* InfoPlist.strings */; };
 		732D013814C7CAED005FFF89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 732D013714C7CAED005FFF89 /* main.m */; };
-		732D014114C7CBF2005FFF89 /* Cedar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732D014014C7CBF2005FFF89 /* Cedar.framework */; };
 		732D014314C7CE51005FFF89 /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732D014214C7CE51005FFF89 /* Cedar-iOS.framework */; };
 		732D014514C7D0C6005FFF89 /* TestSample.mm in Sources */ = {isa = PBXBuildFile; fileRef = 732D014414C7D0C5005FFF89 /* TestSample.mm */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		732D013514C7CAED005FFF89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		732D013714C7CAED005FFF89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		732D013914C7CAED005FFF89 /* UISpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISpecs-Prefix.pch"; sourceTree = "<group>"; };
-		732D014014C7CBF2005FFF89 /* Cedar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cedar.framework; sourceTree = "<group>"; };
 		732D014214C7CE51005FFF89 /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Cedar-iOS.framework"; sourceTree = "<group>"; };
 		732D014414C7D0C5005FFF89 /* TestSample.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TestSample.mm; path = ../TestSample.mm; sourceTree = "<group>"; };
 		732D015214C7EA7E005FFF89 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,7 +61,6 @@
 				732D012E14C7CAED005FFF89 /* UIKit.framework in Frameworks */,
 				732D012F14C7CAED005FFF89 /* Foundation.framework in Frameworks */,
 				732D013014C7CAED005FFF89 /* CoreGraphics.framework in Frameworks */,
-				732D014114C7CBF2005FFF89 /* Cedar.framework in Frameworks */,
 				732D014314C7CE51005FFF89 /* Cedar-iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,7 +124,6 @@
 			children = (
 				732D014414C7D0C5005FFF89 /* TestSample.mm */,
 				732D014214C7CE51005FFF89 /* Cedar-iOS.framework */,
-				732D014014C7CBF2005FFF89 /* Cedar.framework */,
 				732D013214C7CAED005FFF89 /* Supporting Files */,
 			);
 			path = UISpecs;
